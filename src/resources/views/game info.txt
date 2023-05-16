@@ -1,0 +1,24 @@
+game info:
+	html element
+	button
+game form:
+	gameWrapper
+		buttonContainer
+			buttonBoxArea
+				button
+					num
+						defaltNum(random)
+						chooseNum
+		numberChooserContainer
+			numberChooser
+		toolContainer
+			restart
+			erase
+CHECK:
+	row
+	collumn
+	box
+falseCount
+time
+lose(when falseCount = 3)
+win(when all num have been choosed and CHECK is true)

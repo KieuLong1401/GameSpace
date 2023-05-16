@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(204, 39, 204);
+}
+a {
+    text-decoration-line: none;
+}
+.homeButton {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/home-vector-icon1.jpg);
+}
+.score {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: white;
+}
+canvas {
+    background-color: black;
+    display: block;
+    margin: 30px auto;
+    border: solid gray 5px;
+}
+.loseAnnounce {
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    z-index: 1;
+}
+.loseAnnounce h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+.loseAnnounce .buttonContainer {
+    margin-top: 150px;
+}
+.loseAnnounce .buttonContainer button {
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 20px;
+    background-color: rgb(179, 56, 179);
+    color: white;
+    border: solid white 1px;
+}
